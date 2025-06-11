@@ -21,17 +21,17 @@ header {
 }
 
 strong {
-  color: #FF0000;
+  color: #8B0000;
 }
 
 a {
-  color: #FF0000;
+  color: #8B0000;
   text-decoration: black;
 }
 
 a:hover {
   color: #fff;
-  text-shadow: 0 0 6px #FF0000;
+  text-shadow: 0 0 6px #8B0000;
   font-size: 20px;
 }
 
@@ -59,7 +59,7 @@ footer p {
 
 nav a {
   position: absolute;
-  color: #FF0000;
+  color: #8B0000;
   font-size: 19px;
   transform: translate(-50%, -50%);
   text-decoration: none;
@@ -69,14 +69,14 @@ nav a {
 nav a:hover {
   color: #fff;
   font-size: 21px;
-  text-shadow: 0 0 6px #FF0000;
+  text-shadow: 0 0 6px #8B0000;
 }
 
 img {
   display: block;
-  max-width: 1000px;
+  max-width: 600px;
   height: auto;
-  margin: 50px auto;
+  margin: 20px auto;
   border-radius: 10px;
-  box-shadow: 0 0 5px #FF0000;
+  box-shadow: 0 0 5px #8B0000;
 }
