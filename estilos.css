@@ -62,13 +62,17 @@ p {
   margin: 70px 10px 0px 50px;
 }
 
-footer nav ul li a {
+footer p {
   position: absolute;
   bottom: 0;
   right: 0;
   padding: 10px;
   text-align: center;
   font-size: 15px;
+  color: #808080;
+}
+
+footer nav ul li a {
   color: #808080;
 }
 
