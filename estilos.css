@@ -45,9 +45,6 @@ nav a {
 footer nav a {
 	color: #8B0000;
 }
-nav a:hover {
-  color: #ffaaee;
-}
 
 strong {
   color: #8B0000;
