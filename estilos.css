@@ -42,10 +42,9 @@ nav a {
   text-decoration: none;
   font-weight: bold;
   font-size: 16px;
-  transition: 0.2s;
 }
 footer nav a {
-	color: black;
+	color: #808080;
 }
 nav a:hover {
   color: #ffaaee;
@@ -56,7 +55,7 @@ strong {
 }
 
 main {
-  color: #8B0000;
+  color: #808080;
 }
 
 p {
