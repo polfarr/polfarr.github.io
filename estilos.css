@@ -62,7 +62,7 @@ p {
   margin: 70px 10px 0px 50px;
 }
 
-footer p {
+footer nav ul li a {
   position: absolute;
   bottom: 0;
   right: 0;
