@@ -58,7 +58,6 @@ nav ul li a {
 
 footer nav ul li a {
   color: #808080;
-  font-size: 20px;
 }
 
 footer nav a {
@@ -87,7 +86,7 @@ footer p {
   right: 0;
   padding: 10px;
   text-align: center;
-  font-size: 15px;
+  font-size: 10px;
   color: #808080;
 }
 
