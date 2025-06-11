@@ -12,7 +12,7 @@ header {
 }
 
 h1 {
-  color: #8B0000; /* Rojo sangre */
+  color: #8B0000;
   font-family: "Iceland", sans-serif;
   font-size: 35px;
   text-align: left top;
@@ -21,14 +21,8 @@ h1 {
 
 header h1 {
   font-size: 24px;
-  color: #8B0000; /* Rojo sangre */
+  color: #8B0000;
   margin-bottom: 10px;
-}
-
-nav {
-  width: 100%;
-  padding: 20px;
-  box-sizing: border-box;
 }
 
 nav ul {
@@ -38,33 +32,35 @@ nav ul {
   justify-content: center;
   gap: 30px;
   padding: 0;
-  width: 100%;
 }
 
-nav ul li {
-  flex-grow: 1;
-  text-align: center;
+header nav ul li a{
+    font-size: 40px;
 }
-
-nav ul li a {
-  display: block;
-  font-size: 40px;
-  width: 100%;
-  padding: 10px;
-  color: #8B0000; /* Rojo sangre */
-  text-decoration: none; /* Elimina el subrayado */
+nav a {
+  color: #8800ff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.2s;
+}
+footer nav a {
+	color: black;
+}
+nav a:hover {
+  color: #ffaaee;
 }
 
 strong {
-  color: #8B0000; /* Rojo sangre */
+  color: #8B0000;
 }
 
 main {
-  color: #8B0000; /* Rojo sangre */
+  color: #8B0000;
 }
 
 p {
-  color: #8B0000; /* Rojo sangre */
+  color: #8B0000;
   font-family: "Iceland", sans-serif;
   font-size: 20px;
   text-align: left top;
@@ -78,7 +74,7 @@ footer p {
   padding: 10px;
   text-align: center;
   font-size: 15px;
-  color: #8B0000; /* Rojo sangre */
+  color: #8B0000;
 }
 
 img {
@@ -87,5 +83,5 @@ img {
   height: auto;
   margin: 20px auto;
   border-radius: 10px;
-  box-shadow: 0 0 5px #8B0000; /* Rojo sangre */
+  box-shadow: 0 0 5px #8B0000;
 }
