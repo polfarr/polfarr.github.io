@@ -1,21 +1,53 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Contacto</title>
-	</head>
-	<body>
-		<header>
+<head>
+	<title>Contacto</title>
+	<link rel="stylesheet" href="estilo.css" />
+
+</head>
+	<script type="text/javascript" src="contacto.js"></script>
+<body>
+	<main>
+		<header>					
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="CV.html">CV</a></li>
+						<li><a href="Hobbies.html">Hobbies</a></li>
+						<li><a href="Contacto.html">Contacto</a></li>
+						<li><a href="microjuego.html">Microjuego</a></li>
+					</ul>
+				</nav>
+		</header>
+	</main>
+	<main>	
+		<h1>Alex Leiva</h1>
+		<h1>Contacto </h1>
+		<form id="contact-form">
+
+			<p><label for="campo-nombre">Nombre: </label><input type="text" name="nombre" id="campo-nombre"/> </p>
+			<!-- <p>Password: <input type="password" name="pass" id="campo-contrasenya"/> </p> -->
+			<p>Nacimiento: <input type="date" name="nacimiento" id="campo-date"/> </p>
+			<p>Color favorito: <input type="color" name="color" id="campo-color"/> </p>
+			<!-- <p>Edat: <input type="number" name="edad" value="18" min="1" max="120" id="campo-edat" /> </p> -->
+			<p><label for = "campo-comentario">Comentario:</label> <textarea id="campo-comentario" name="comenatario"></textarea></p>
+			<p><input type="checkbox" name="subscribe" id="campo-subscribe"/><label for="campo-subscribe"> Si no aceptas esta cajetilla de texto, te suscribes a mi mailing de por vida y se te cobraran 1000€ mensuales por la cara</label></p>
+			<p><input type="submit" id="campo-submit" /> </p>
+		</form>
+	</main>
+		
+		<footer>
 			<nav>
 				<ul>
 					<li><a href="index.html">Home</a></li>
-					<li><a href="cv.html">Cv</a></li>
-					<li><a href="hobbies.html">Hobbies</a></li>
-					<li><a href="contacte.html">Contacte</a></li>
+					<li><a href="CV.html">CV</a></li>
+					<li><a href="Hobbies.html">Hobbies</a></li>
+					<li><a href="Contacto.html">Contacto</a></li>
+					<li><a href="microjuego.html">Microjuego</a></li>
 				</ul>
 			</nav>
-			<h1>Contacte</h1>
-		</header>
-		<main>
-		</main>
-	</body>
+		<p>Pol Farré</p>
+    </footer>
+</body>
+
 </html>
