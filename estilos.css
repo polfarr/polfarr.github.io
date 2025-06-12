@@ -57,8 +57,9 @@ nav ul li a {
 }
 
 footer nav ul li a {
+  font-size: 20px;
   color: #808080;
-  font-size: 12px;
+  
 }
 
 strong {
