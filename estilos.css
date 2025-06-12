@@ -60,10 +60,6 @@ footer nav ul li a {
   color: #808080;
 }
 
-footer nav a {
-  color: #808080;
-}
-
 strong {
   color: #8B0000;
 }
@@ -86,7 +82,7 @@ footer p {
   right: 0;
   padding: 10px;
   text-align: center;
-  font-size: 10px;
+  font-size: 8px;
   color: #808080;
 }
 
